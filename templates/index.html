@@ -61,7 +61,7 @@
                     $('#resp').val('Nome: ' + callback.nome + ' - Sobrenome: ' + callback.sobrenome + ' - Cargo: ' + callback.cargo);
                 },
                 error: function () {
-                    $(this).val(alert("Preencha os campos corretamente"));
+                    $(this).html("error!");
                 }
             });
 
